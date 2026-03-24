@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Lock files (optional - remove this line if you want to track uv.lock)
+uv.lock
+
+# Local settings
+.claude/settings.local.json

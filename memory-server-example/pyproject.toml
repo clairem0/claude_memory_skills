@@ -1,0 +1,9 @@
+[project]
+name = "memory-server"
+version = "0.1.0"
+description = "MCP server to load CLAUDE.md context"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.0.0"]
+
+[project.scripts]
+memory-server = "server:main"
